@@ -164,7 +164,7 @@ class _CountryListViewState extends State<CountryListView> {
                     .toList(),
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 20.0),
-                  child: Divider(thickness: 1),
+                  child: Divider(thickness: 1,color: Color(0xffE5E7EB),),
                 ),
               ],
               ..._filteredList
